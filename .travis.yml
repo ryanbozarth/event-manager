@@ -11,7 +11,7 @@ addons:
 deploy:
   provider: heroku
   api_key:
-      secure: XX
+      secure: d0fef4e4-e279-4b8c-824c-e327f1133fd6
   app: shielded-waters-92149
   on:
     repo: ryanbozarth/event-manager
