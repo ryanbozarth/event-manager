@@ -1,12 +1,12 @@
 {
   "name": "event-manager",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Event manager built on Node",
+  "main": "server.js",
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "author": "Ryan Bozarth",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0"
