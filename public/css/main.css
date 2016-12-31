@@ -14,7 +14,11 @@ p {
   height: 75px;
 }
 
-.btn-primary {
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active
+ {
   background-color: rgba(216,216,216,1);
   border: 2px solid rgba(216,216,216,1);
   border-radius: 0;
