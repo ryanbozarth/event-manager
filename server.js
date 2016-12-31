@@ -11,6 +11,12 @@ app.get('/', function(req, res){
 
 });
 
+// endpoint = http://surfmoto/get-all-rides/ryan-bozarth
+// getting = app.get('/get-all-rides/:user, function(req, res){ req.params.user = ryanbozarth}'
+// get all rides for user
+// database requst find by user name. get back all rides for which user name = ryanbozarth
+// json object parse and display
+
 app.listen(process.env.PORT || 8080);
 
 exports.app = app;
