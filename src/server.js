@@ -4,10 +4,23 @@ const app = express();
 const bodyParser = require('body-parser');
 const jsonParser = bodyParser.json();
 const mongoose = require('mongoose');
+
 app.use(express.static('public'));
 
 
 app.get('/', function(req, res){
+
+});
+
+app.get('/intro', function (req, res){
+
+});
+
+app.get('/home', function (req, res){
+
+});
+
+app.get('/event-details/:id', function (req, res){
 
 });
 
